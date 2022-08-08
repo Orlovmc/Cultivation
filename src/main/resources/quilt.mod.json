@@ -5,7 +5,7 @@
 		"id": "cultivation_mod",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
+			"name": "Cultivation",
 			"description": "In this mod you can cultivate",
 			"contributors": {
 				"OrlovMC": "Owner"
@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.cultivation.cultivation_mod.ExampleMod"
+			"init": "com.orlovmc.cultivation_mod.Cultivation"
 		},
 		"depends": [
 			{
