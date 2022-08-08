@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "com.orlovmc",
+		"id": "cultivation_mod",
 		"version": "${version}",
 		"metadata": {
 			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"description": "In this mod you can cultivate",
 			"contributors": {
-				"Your name here": "Owner"
+				"OrlovMC": "Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/OrlovMC/quilt-template-mod/issues",
+				"sources": "https://github.com/OrlovMC/quilt-template-mod"
 			},
 			"icon": "assets/example_mod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.cultivation.cultivation_mod.ExampleMod"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "cultivation_mod.mixins.json"
 }
